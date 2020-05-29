@@ -18,3 +18,8 @@ docker run --rm -it  controlfox:latest
 # run with an environment file
 docker run --rm -it --env-file local.env controlfox:latest
 ```
+
+
+# References
+
+- Powershell Authentication https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-4.1.0
