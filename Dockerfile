@@ -2,8 +2,8 @@
 FROM mcr.microsoft.com/powershell
 
 # Install AZ Module
-RUN Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
-RUN Install-Module -Name Az -AllowClobber -Scope AllUsers 
+RUN pwsh -Command 'Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted'
+RUN pwsh -Command 'Install-Module -Name Az -AllowClobber -Scope AllUsers' 
 
 WORKDIR /app
 
