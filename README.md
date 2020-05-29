@@ -23,6 +23,12 @@ docker run --rm -it  controlfox:latest
 docker run --rm -it --env-file local.env controlfox:latest
 ```
 
+Run the script
+
+```powershell
+PS /> EH.NameSpace.ps1
+```
+
 # References
 
 - Powershell Authentication https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-4.1.0
